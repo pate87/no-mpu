@@ -1,0 +1,7 @@
+.bg-yellow {
+    background: transparent;
+}
+.bg-yellow.scrolled {
+    background: #ff0;
+    transition: .5s ease-in;
+}

@@ -1,0 +1,19 @@
+$theme-colors: (
+  "primary": #ffff00,
+  "danger": #ff4136
+);
+
+$bg-yellow: #ffff00;
+$brand_yellow: #ffff00;
+
+$colors: (
+  "brand": $brand_yellow
+);
+
+$primary: $brand_yellow;
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
