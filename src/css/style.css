@@ -5,3 +5,39 @@
     background: #ff0;
     transition: .5s ease-in;
 }
+
+hr {
+    color: #ff0;
+}
+
+#intro {
+    background: url("https://jimdo-storage.freetls.fastly.net/image/a5be4261-29b7-4868-b068-b812184c3a8a.jpg")
+      no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  #trust {
+    background: url("https://p-schub.lima-city.de/mpu/img/light-way_25.jpeg")
+      no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .btn-outline-light {
+    border: rgba(0,0,0, .5) solid 1px;
+  }
+
+  .mask {
+    background-color: rgba(100,100,100, .5);
+  }
+
+  .vh {
+      height: 100%;
+  }
