@@ -41,3 +41,12 @@ hr {
   .vh {
       height: 100%;
   }
+
+  .brand {
+    background: yellow;
+    padding: 7px;
+    border-radius: 10px;
+    color: #111;
+    text-shadow: none;
+    border: 5px solid #111;
+}
