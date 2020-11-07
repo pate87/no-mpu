@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="de">
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,419 +9,375 @@
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<!-- Font Awesome -->
-<link
-rel="stylesheet"
-href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
-/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
     <!-- Bootstrap CSS -->
     <!-- <script src="src/js/app.js"></script> -->
     <!-- <link rel="stylesheet" href="bootstrap/dist/css/bootstrap-reboot.min.css"> -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<!-- <link rel="stylesheet" href="custom.css"> -->
-<link rel="stylesheet" href="dist/css/custom.css">
-<link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="custom.css"> -->
+    <link rel="stylesheet" href="dist/css/custom.css">
+    <link rel="stylesheet" href="src/css/style.css">
 
-<script src="src/js/smooth-scroll.js"></script>
+    <script src="src/js/smooth-scroll.js"></script>
 
-<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
 
 
     <title>NO-MPU</title>
   </head>
-  <body class="bg-light">
+
+  <body class="bg-light" data-spy="scroll" data-target=".navbar">
     <header>
-     <!--Main Navigation-->
-    <nav class="navbar navbar-light navbar-expand-md bg-yellow fixed-top justify-content-center rounded">
-      <a href="/" class="navbar-brand my-1"><span class="brand">No MPU ➔</span></a>
-      <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+      <!--Main Navigation-->
+      <nav id="main-navigation"
+        class="navbar navbar-light navbar-expand-md bg-yellow fixed-top justify-content-center rounded">
+        <a href="/" class="navbar-brand my-1"><span class="brand">No MPU ➔</span></a>
+        <button class="navbar-toggler ml-1" type="button" data-toggle="collapse"
+          data-target="#collapsingNavbar">
           <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar">
+        </button>
+        <div class="navbar-collapse collapse justify-content-between align-items-center w-100"
+          id="collapsingNavbar">
           <ul id="main-nav" class="navbar-nav mx-auto text-center">
-              <li class="nav-item active">
-                  <a class="nav-link" href="#intro">Home<span class="sr-only">Home</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#section1">Über uns</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#section2">section 2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#section3">section 3</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#intro">Home<span class="sr-only">Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section1">Über uns</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section2">section 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3">section 3</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#section4">section 4</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Kontakt</a>
-        </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontakt</a>
+            </li>
           </ul>
-          <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
-              <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook mr-1"></i></a> </li>
-              <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-twitter"></i></a> </li>
-              <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a> </li>
-          </ul>
-      </div>
-  </nav>
-   <!--Main Navigation-->
 
-         <!--Mask-->
-         <div id="intro" class="view">
-          <div class="mask vh">
-            <div
-              class="container-fluid d-flex align-items-center justify-content-center h-100"
-            >
-              <div class="row d-flex justify-content-center text-center">
-                <div class="col-md-10">
-                  <!-- Heading -->
-                  <h2 class="font-weight-bold text-white pt-3 my-4">
-                    Jetzt WEITERFAHREN OHNE MPU PRÜFUNG
-                  </h2>
-                  <!-- <br> -->
-                  <span class="brand display-8 font-weight-bold my-3"
-                    >NO-MPU ➔</span
-                  >
-                  <!-- <br> -->
-                  <!-- <h2 class="font-weight-bold text-white pt-3 mb-2">WEBSEITE</h2> -->
-  
-                  <!-- Divider -->
-                  <hr class="hr-light my-5" />
-  
-                  <!-- Description -->
-                  <h4 class="text-white my-4">macht es möglich</h4>
-                  <div class="container d-flex justify-content-around">
-                    <button
-                    type="button"
-                    class="btn btn-outline-primary font-weight-bold"
-                  >
+          <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
+            <li class="nav-item"><a class="nav-link" href="#"><i
+                  class="fab fa-facebook mr-1"></i></a> </li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- close Main Navigation -->
+
+      <!--Mask-->
+      <div id="intro" class="view">
+        <div class="mask vh">
+          <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+            <div class="row d-flex justify-content-center text-center">
+              <div class="col-md-10">
+                <!-- Heading -->
+                <h2 class="font-weight-bold text-white pt-3 my-4">
+                  Jetzt WEITERFAHREN OHNE MPU PRÜFUNG
+                </h2>
+                <!-- <br> -->
+                <span class="brand display-8 font-weight-bold my-3">NO-MPU ➔</span>
+                <!-- <br> -->
+                <!-- <h2 class="font-weight-bold text-white pt-3 mb-2">WEBSEITE</h2> -->
+
+                <!-- Divider -->
+                <hr class="hr-light my-5" />
+
+                <!-- Description -->
+                <h4 class="text-white my-4">macht es möglich</h4>
+                <div class="container d-flex justify-content-around">
+                  <button type="button" class="btn btn-outline-primary font-weight-bold">
                     Einsteigen<i class="fas fa-arrow-right ml-1"></i>
                   </button>
                   <button type="button" class="btn btn-outline-light">
                     mehr erfahren<i class="fas fa-info ml-1"></i>
                   </button>
-                  </div>
-                
-          
-               
                 </div>
+
+
+
               </div>
             </div>
           </div>
         </div>
-        <!--/.Mask-->
-      </header>
-      <!-- </header> -->
-  
-      <!--Main layout-->
-      <main class="">
-        <!-- site container -->
-        <div class="container">
-          <!--Section: about-us-->
-          <section id="section1" class="text-center mt-5 pt-5">
-            <!-- Heading -->
-            <h2 class="mb-5 font-weight-bold mt-5">Über uns</h2>
-  
-            <!--Grid row-->
-            <div class="row d-flex justify-content-center mb-4">
-              <!--Grid column-->
-              <div class="col-md-8">
-                <!-- Description -->
-                <p class="text-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-                  voluptate hic provident nulla repellat facere esse molestiae
-                  ipsa labore porro minima quam quaerat rem, natus repudiandae
-                  debitis est sit pariatur.
-                </p>
-              </div>
-              <!--Grid column-->
-            </div>
-            <!--Grid row-->
-  
-            <!--Grid row-->
-            <div class="row">
-              <!--Grid column-->
-              <div class="col-md-4 mb-5">
-                <i class="fas fa-camera-retro fa-4x text-dark"></i>
-                <h4 class="my-4 font-weight-bold">Experience</h4>
-                <p class="text-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                  hic.
-                </p>
-              </div>
-              <!--Grid column-->
-  
-              <!--Grid column-->
-              <div class="col-md-4 mb-1">
-                <i class="fas fa-heart fa-4x text-dark"></i>
-                <h4 class="my-4 font-weight-bold">Happiness</h4>
-                <p class="text-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                  hic.
-                </p>
-              </div>
-              <!--Grid column-->
-  
-              <!--Grid column-->
-              <div class="col-md-4 mb-1">
-                <i class="fas fa-bicycle fa-4x text-dark"></i>
-                <h4 class="my-4 font-weight-bold">Adventure</h4>
-                <p class="text-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                  hic.
-                </p>
-              </div>
-              <!--Grid column-->
-            </div>
-            <!--Grid row-->
-          </section>
-          <!--Section: Best Features-->
+      </div>
+      <!--/.Mask-->
+    </header>
+    <!-- </header> -->
 
-          <div class="container marketing">
+    <!--Main layout-->
+    <main class="">
+      <!-- site container -->
+      <div class="container">
+        <!--Section: about-us-->
+        <section id="section1" class="section text-center mt-5 pt-5">
+          <!-- Heading -->
+          <h2 class="mb-5 font-weight-bold mt-5">Über uns</h2>
 
-            <!-- START THE FEATURETTES -->
-            <section id="section2" class="my-5 pt-3">
-              <hr class="bg-dark my-5">
-        
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center mb-4">
+            <!--Grid column-->
+            <div class="col-md-8">
+              <!-- Description -->
+              <p class="text-dark">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+                voluptate hic provident nulla repellat facere esse molestiae
+                ipsa labore porro minima quam quaerat rem, natus repudiandae
+                debitis est sit pariatur.
+              </p>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-4 mb-5">
+              <i class="fas fa-camera-retro fa-4x text-dark"></i>
+              <h4 class="my-4 font-weight-bold">Experience</h4>
+              <p class="text-dark">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reprehenderit maiores nam, aperiam minima assumenda deleniti
+                hic.
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-4 mb-1">
+              <i class="fas fa-heart fa-4x text-dark"></i>
+              <h4 class="my-4 font-weight-bold">Happiness</h4>
+              <p class="text-dark">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reprehenderit maiores nam, aperiam minima assumenda deleniti
+                hic.
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-4 mb-1">
+              <i class="fas fa-bicycle fa-4x text-dark"></i>
+              <h4 class="my-4 font-weight-bold">Adventure</h4>
+              <p class="text-dark">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reprehenderit maiores nam, aperiam minima assumenda deleniti
+                hic.
+              </p>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!--Section: Best Features-->
+
+        <div class="container marketing">
+
+          <!-- START THE FEATURETTES -->
+          <section id="section2" class="section my-5 pt-3">
+            <hr class="bg-dark my-5">
+
             <div class="row featurette">
               <div class="col-md-7">
 
-                <h2 class="featurette-heading">Hier sind die wichtigsten Punkte <span class="text-muted">im Überblick</span></h2>
+                <h2 class="featurette-heading">Hier sind die wichtigsten Punkte <span
+                    class="text-muted">im Überblick</span></h2>
 
                 <!-- card -->
                 <div class="card my-auto">
-                
-                 <!-- Accordion -->
-                 <div class="accordion" id="accordion">
-                  <div class="card">
-                    <div class="card-header bg-dark" id="headingOne">
-                      <h2 class="mb-0">
-                        <!-- <i class="fa fa-arrow-circle-right pr-10 colored" style="font-style: unset;">➔</i> -->
-                        <span class="text-primary">➔</span>
-                        <button
-                          class="btn btn-link brand-text"
-                          type="button"
-                          data-toggle="collapse"
-                          data-target="#collapseOne"
-                          aria-expanded="true"
-                          aria-controls="collapseOne"
-                        >
-                          Collapsible Group Item #1
-                        </button>
-                      </h2>
-                    </div>
 
-                    <div
-                      id="collapseOne"
-                      class="collapse show"
-                      aria-labelledby="headingOne"
-                      data-parent="#accordion"
-                    >
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high
-                        life accusamus terry richardson ad squid. 3 wolf moon
-                        officia aute, non cupidatat skateboard dolor brunch.
-                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                        wolf moon tempor, sunt aliqua put a bird on it squid
-                        single-origin coffee nulla assumenda shoreditch et.
-                        Nihil anim keffiyeh helvetica, craft beer labore wes
-                        anderson cred nesciunt sapiente ea proident. Ad vegan
-                        excepteur butcher vice lomo. Leggings occaecat craft
-                        beer farm-to-table, raw denim aesthetic synth nesciunt
-                        you probably haven't heard of them accusamus labore
-                        sustainable VHS.
+                  <!-- Accordion -->
+                  <div class="accordion" id="accordion">
+                    <div class="card">
+                      <div class="card-header bg-dark" id="headingOne">
+                        <h2 class="mb-0">
+                          <!-- <i class="fa fa-arrow-circle-right pr-10 colored" style="font-style: unset;">➔</i> -->
+                          <span class="text-primary">➔</span>
+                          <button class="btn btn-link brand-text" type="button"
+                            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            Collapsible Group Item #1
+                          </button>
+                        </h2>
+                      </div>
+
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordion">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high
+                          life accusamus terry richardson ad squid. 3 wolf moon
+                          officia aute, non cupidatat skateboard dolor brunch.
+                          Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+                          wolf moon tempor, sunt aliqua put a bird on it squid
+                          single-origin coffee nulla assumenda shoreditch et.
+                          Nihil anim keffiyeh helvetica, craft beer labore wes
+                          anderson cred nesciunt sapiente ea proident. Ad vegan
+                          excepteur butcher vice lomo. Leggings occaecat craft
+                          beer farm-to-table, raw denim aesthetic synth nesciunt
+                          you probably haven't heard of them accusamus labore
+                          sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header bg-dark" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link brand-text collapsed" type="button"
+                            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            Collapsible Group Item #2
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                        data-parent="#accordion">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high
+                          life accusamus terry richardson ad squid. 3 wolf moon
+                          officia aute, non cupidatat skateboard dolor brunch.
+                          Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+                          wolf moon tempor, sunt aliqua put a bird on it squid
+                          single-origin coffee nulla assumenda shoreditch et.
+                          Nihil anim keffiyeh helvetica, craft beer labore wes
+                          anderson cred nesciunt sapiente ea proident. Ad vegan
+                          excepteur butcher vice lomo. Leggings occaecat craft
+                          beer farm-to-table, raw denim aesthetic synth nesciunt
+                          you probably haven't heard of them accusamus labore
+                          sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header bg-dark" id="headingThree">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link brand-text collapsed" type="button"
+                            data-toggle="collapse" data-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            Collapsible Group Item #3
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordion">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high
+                          life accusamus terry richardson ad squid. 3 wolf moon
+                          officia aute, non cupidatat skateboard dolor brunch.
+                          Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+                          wolf moon tempor, sunt aliqua put a bird on it squid
+                          single-origin coffee nulla assumenda shoreditch et.
+                          Nihil anim keffiyeh helvetica, craft beer labore wes
+                          anderson cred nesciunt sapiente ea proident. Ad vegan
+                          excepteur butcher vice lomo. Leggings occaecat craft
+                          beer farm-to-table, raw denim aesthetic synth nesciunt
+                          you probably haven't heard of them accusamus labore
+                          sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header bg-dark" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link brand-text collapsed" type="button"
+                            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            Collapsible Group Item #2
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                        data-parent="#accordion">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high
+                          life accusamus terry richardson ad squid. 3 wolf moon
+                          officia aute, non cupidatat skateboard dolor brunch.
+                          Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+                          wolf moon tempor, sunt aliqua put a bird on it squid
+                          single-origin coffee nulla assumenda shoreditch et.
+                          Nihil anim keffiyeh helvetica, craft beer labore wes
+                          anderson cred nesciunt sapiente ea proident. Ad vegan
+                          excepteur butcher vice lomo. Leggings occaecat craft
+                          beer farm-to-table, raw denim aesthetic synth nesciunt
+                          you probably haven't heard of them accusamus labore
+                          sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header bg-dark" id="headingThree">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link brand-text collapsed" type="button"
+                            data-toggle="collapse" data-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            Collapsible Group Item #3
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordion">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high
+                          life accusamus terry richardson ad squid. 3 wolf moon
+                          officia aute, non cupidatat skateboard dolor brunch.
+                          Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+                          wolf moon tempor, sunt aliqua put a bird on it squid
+                          single-origin coffee nulla assumenda shoreditch et.
+                          Nihil anim keffiyeh helvetica, craft beer labore wes
+                          anderson cred nesciunt sapiente ea proident. Ad vegan
+                          excepteur butcher vice lomo. Leggings occaecat craft
+                          beer farm-to-table, raw denim aesthetic synth nesciunt
+                          you probably haven't heard of them accusamus labore
+                          sustainable VHS.
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class="card">
-                    <div class="card-header bg-dark" id="headingTwo">
-                      <h2 class="mb-0">
-                        <button
-                          class="btn btn-link brand-text collapsed"
-                          type="button"
-                          data-toggle="collapse"
-                          data-target="#collapseTwo"
-                          aria-expanded="false"
-                          aria-controls="collapseTwo"
-                        >
-                          Collapsible Group Item #2
-                        </button>
-                      </h2>
-                    </div>
-                    <div
-                      id="collapseTwo"
-                      class="collapse"
-                      aria-labelledby="headingTwo"
-                      data-parent="#accordion"
-                    >
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high
-                        life accusamus terry richardson ad squid. 3 wolf moon
-                        officia aute, non cupidatat skateboard dolor brunch.
-                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                        wolf moon tempor, sunt aliqua put a bird on it squid
-                        single-origin coffee nulla assumenda shoreditch et.
-                        Nihil anim keffiyeh helvetica, craft beer labore wes
-                        anderson cred nesciunt sapiente ea proident. Ad vegan
-                        excepteur butcher vice lomo. Leggings occaecat craft
-                        beer farm-to-table, raw denim aesthetic synth nesciunt
-                        you probably haven't heard of them accusamus labore
-                        sustainable VHS.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header bg-dark" id="headingThree">
-                      <h2 class="mb-0">
-                        <button
-                          class="btn btn-link brand-text collapsed"
-                          type="button"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          Collapsible Group Item #3
-                        </button>
-                      </h2>
-                    </div>
-                    <div
-                      id="collapseThree"
-                      class="collapse"
-                      aria-labelledby="headingThree"
-                      data-parent="#accordion"
-                    >
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high
-                        life accusamus terry richardson ad squid. 3 wolf moon
-                        officia aute, non cupidatat skateboard dolor brunch.
-                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                        wolf moon tempor, sunt aliqua put a bird on it squid
-                        single-origin coffee nulla assumenda shoreditch et.
-                        Nihil anim keffiyeh helvetica, craft beer labore wes
-                        anderson cred nesciunt sapiente ea proident. Ad vegan
-                        excepteur butcher vice lomo. Leggings occaecat craft
-                        beer farm-to-table, raw denim aesthetic synth nesciunt
-                        you probably haven't heard of them accusamus labore
-                        sustainable VHS.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header bg-dark" id="headingTwo">
-                      <h2 class="mb-0">
-                        <button
-                          class="btn btn-link brand-text collapsed"
-                          type="button"
-                          data-toggle="collapse"
-                          data-target="#collapseTwo"
-                          aria-expanded="false"
-                          aria-controls="collapseTwo"
-                        >
-                          Collapsible Group Item #2
-                        </button>
-                      </h2>
-                    </div>
-                    <div
-                      id="collapseTwo"
-                      class="collapse"
-                      aria-labelledby="headingTwo"
-                      data-parent="#accordion"
-                    >
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high
-                        life accusamus terry richardson ad squid. 3 wolf moon
-                        officia aute, non cupidatat skateboard dolor brunch.
-                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                        wolf moon tempor, sunt aliqua put a bird on it squid
-                        single-origin coffee nulla assumenda shoreditch et.
-                        Nihil anim keffiyeh helvetica, craft beer labore wes
-                        anderson cred nesciunt sapiente ea proident. Ad vegan
-                        excepteur butcher vice lomo. Leggings occaecat craft
-                        beer farm-to-table, raw denim aesthetic synth nesciunt
-                        you probably haven't heard of them accusamus labore
-                        sustainable VHS.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header bg-dark" id="headingThree">
-                      <h2 class="mb-0">
-                        <button
-                          class="btn btn-link brand-text collapsed"
-                          type="button"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          Collapsible Group Item #3
-                        </button>
-                      </h2>
-                    </div>
-                    <div
-                      id="collapseThree"
-                      class="collapse"
-                      aria-labelledby="headingThree"
-                      data-parent="#accordion"
-                    >
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high
-                        life accusamus terry richardson ad squid. 3 wolf moon
-                        officia aute, non cupidatat skateboard dolor brunch.
-                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                        wolf moon tempor, sunt aliqua put a bird on it squid
-                        single-origin coffee nulla assumenda shoreditch et.
-                        Nihil anim keffiyeh helvetica, craft beer labore wes
-                        anderson cred nesciunt sapiente ea proident. Ad vegan
-                        excepteur butcher vice lomo. Leggings occaecat craft
-                        beer farm-to-table, raw denim aesthetic synth nesciunt
-                        you probably haven't heard of them accusamus labore
-                        sustainable VHS.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- /Accordion -->
-                
-                <!-- <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p> -->
+                  <!-- /Accordion -->
+
+                  <!-- <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p> -->
                 </div>
                 <!-- /card -->
 
               </div>
               <div class="col-md-5">
                 <!--Grid column-->
-              <div class="col mb-4 my-5">
-                <div class="view overlay z-depth-1-half">
-                  <img
-                    src="https://p-schub.lima-city.de/mpu/img/light-way_12.jpg"
-                    class="img-fluid"
-                    alt="image zur auflistung zu EU FÜHRERSCHEIN"
-                  />
-                  <a href="#!">
-                    <div
-                      class="mask waves-effect waves-light rgba-white-slight"
-                    ></div>
-                  </a>
+                <div class="col mb-4 my-5">
+                  <div class="view overlay z-depth-1-half">
+                    <img src="https://p-schub.lima-city.de/mpu/img/light-way_12.jpg"
+                      class="img-fluid" alt="image zur auflistung zu EU FÜHRERSCHEIN" />
+                    <a href="#!">
+                      <div class="mask waves-effect waves-light rgba-white-slight"></div>
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <!--Grid column-->
+                <!--Grid column-->
                 <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
               </div>
             </div>
-        </section>
+          </section>
 
-        <section id="section3" class="my-5 pt-3">
+          <section id="section3" class="section my-5 pt-3">
             <hr class="bg-dark my-5">
-        
+
             <div class="row featurette">
               <div class="col-md-7 order-md-2 my-auto">
-                <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See
+                    for yourself.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+                  ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque
+                  nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                 <h4 class="mb-3"><strong>This is title of the news</strong></h4>
                 <p>
                   Nam libero tempore, cum soluta nobis est eligendi optio cumque
@@ -428,7 +385,7 @@ href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
                   omnis voluptas assumenda est, omnis dolor repellendus et aut
                   officiis debitis aut rerum.
                 </p>
-  
+
                 <p>
                   Nam libero tempore, cum soluta nobis est eligendi optio cumque
                   nihil impedit quo minus id quod maxime placeat facere possimus,
@@ -436,45 +393,35 @@ href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
                   officiis debitis aut rerum.
                 </p>
                 <p>
-                  by <a><strong>Jessica Clark</strong></a
-                  >, 26/08/2016
+                  by <a><strong>Jessica Clark</strong></a>, 26/08/2016
                 </p>
                 <a class="btn text-dark btn-primary btn-md">Read more</a>
               </div>
               <div class="col-md-5 order-md-1">
                 <!--Grid column-->
-            <div class="col mb-4 my-5">
-              <div class="view overlay z-depth-1-half">
-                <img 
-                  src="https://p-schub.lima-city.de/mpu/img/light-way_09.jpg"
-                  class="img-fluid"
-                  alt="image zur auflistung zu EU FÜHRERSCHEIN"
-                />
-                <a href="#!">
-                  <div
-                    class="mask waves-effect waves-light rgba-white-slight"
-                  ></div>
-                </a>
-              </div>
-            </div>
-            <!--Grid column-->
+                <div class="col mb-4 my-5">
+                  <div class="view overlay z-depth-1-half">
+                    <img src="https://p-schub.lima-city.de/mpu/img/light-way_09.jpg"
+                      class="img-fluid" alt="image zur auflistung zu EU FÜHRERSCHEIN" />
+                    <a href="#!">
+                      <div class="mask waves-effect waves-light rgba-white-slight"></div>
+                    </a>
+                  </div>
+                </div>
+                <!--Grid column-->
                 <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
               </div>
             </div>
           </section>
-          
-          <!--Section: Gallery-->
-          <!-- <section id="section4"> -->
-            <hr class="bg-dark my-5">
-           
+
+          <hr class="bg-dark my-5">
+
           <!--Section: sub-intro-->
           <section id="sub-intro" class="my-5">
             <!--Mask-->
             <div id="trust" class="view">
               <div class="mask vh">
-                <div
-                  class="container-fluid d-flex align-items-center justify-content-center h-100"
-                >
+                <div class="container-fluid d-flex align-items-center justify-content-center h-100">
                   <div class="row d-flex justify-content-center text-center">
                     <div class="col-md-10">
                       <h2 class="font-weight-bold text-white pt-5 mb-2">
@@ -488,277 +435,295 @@ href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
             <!--/.Mask-->
           </section>
           <!--Section: sub-intro-->
-  
+
           <!--Section: Best Features-->
-          <section id="section4" class="text-center pt-5">
+          <section id="section4" class="section text-center pt-5">
             <!-- Space container -->
             <div class="container mt-5">
-            <h2 class="mb-5 font-weight-bold my-5">Best Features</h2>
-  
-            <!--Grid row-->
-            <div class="row d-flex justify-content-center mb-4">
-              <!--Grid column-->
-              <div class="col-md-8">
-                <!-- Description -->
-                <p class="text-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-                  voluptate hic provident nulla repellat facere esse molestiae
-                  ipsa labore porro minima quam quaerat rem, natus repudiandae
-                  debitis est sit pariatur.
-                </p>
+              <h2 class="mb-5 font-weight-bold my-5">Best Features</h2>
+
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center mb-4">
+                <!--Grid column-->
+                <div class="col-md-8">
+                  <!-- Description -->
+                  <p class="text-dark">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+                    voluptate hic provident nulla repellat facere esse molestiae
+                    ipsa labore porro minima quam quaerat rem, natus repudiandae
+                    debitis est sit pariatur.
+                  </p>
+                </div>
+                <!--Grid column-->
               </div>
-              <!--Grid column-->
-            </div>
-            <!--/Grid row-->
+              <!--/Grid row-->
             </div>
             <!-- Space container -->
           </section>
           <!--Section: Best Features-->
-  
-         <!--Section: Contact-->
-<section id="contact">
-<hr class="bg-dark my-5">
-  <!-- Heading -->
-  <h2 class="mb-5 font-weight-bold text-center mt-5 pt-5">Contact us</h2>
 
-  <!--Grid row-->
-  <div class="row">
+          <hr class="bg-dark my-5">
 
- <!--Grid column-->
-<div class="col-lg-5 col-md-12">
-  <!-- Form contact -->
-  <form class="p-5 grey-text" action="mailto:patrick-schubert@gmx.de" method="POST" enctype="text/plain">
-    <div class="md-form form-sm"> <i class="fas fa-user prefix"></i>
-      <input type="text" id="form3" class="form-control form-control-sm">
-      <label for="form3">Your name</label>
-    </div>
-    <div class="md-form form-sm"> <i class="fas fa-envelope prefix"></i>
-      <input type="text" id="form2" class="form-control form-control-sm">
-      <label for="form2">Your email</label>
-    </div>
-    <div class="md-form form-sm"> <i class="fas fa-tag prefix"></i>
-      <input type="text" id="form32" class="form-control form-control-sm">
-      <label for="form34">Subject</label>
-    </div>
-    <div class="md-form form-sm"> <i class="fas fa-pencil-alt prefix"></i>
-      <textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="4"></textarea>
-      <label for="form8">Your message</label>
-    </div>
-    <div class="text-center mt-4">
-      <button class="btn btn-primary">Send <i class="far fa-paper-planeml-1"></i></button>
-    </div>
-  </form>
-  <!-- Form contact -->
-</div>
-<!--Grid column-->
-  <!--Grid column-->
+          <!--Section: Contact-->
+          <section id="contact" class="section">
 
-  <!--Grid column-->
-  <div class="col-lg-7 col-md-12">
+            <!-- Heading -->
+            <h2 class="mb-5 font-weight-bold text-center mt-5 pt-5">Contact us</h2>
 
-    <!--Grid row-->
-<div class="row text-center">
+            <!--Grid row-->
+            <div class="row">
 
-  <!--Grid column-->
-  <div class="col-lg-4 col-md-12 mb-3">
+              <!--Grid column-->
+              <div class="col-lg-5 col-md-12">
+                <!-- Form contact -->
+                <form class="p-5 grey-text" action="mailto:patrick-schubert@gmx.de" method="POST"
+                  enctype="text/plain">
+                  <div class="md-form form-sm"> <i class="fas fa-user prefix"></i>
+                    <input type="text" id="form3" class="form-control form-control-sm">
+                    <label for="form3">Your name</label>
+                  </div>
+                  <div class="md-form form-sm"> <i class="fas fa-envelope prefix"></i>
+                    <input type="text" id="form2" class="form-control form-control-sm">
+                    <label for="form2">Your email</label>
+                  </div>
+                  <div class="md-form form-sm"> <i class="fas fa-tag prefix"></i>
+                    <input type="text" id="form32" class="form-control form-control-sm">
+                    <label for="form34">Subject</label>
+                  </div>
+                  <div class="md-form form-sm"> <i class="fas fa-pencil-alt prefix"></i>
+                    <textarea type="text" id="form8"
+                      class="md-textarea form-control form-control-sm" rows="4"></textarea>
+                    <label for="form8">Your message</label>
+                  </div>
+                  <div class="text-center mt-4">
+                    <button class="btn btn-primary">Send <i
+                        class="far fa-paper-planeml-1"></i></button>
+                  </div>
+                </form>
+                <!-- Form contact -->
+              </div>
+              <!--Grid column-->
+              <!--Grid column-->
 
-      <p><i class="fas fa-map fa-1x mr-2 grey-text"></i>Chemnitz</p>
+              <!--Grid column-->
+              <div class="col-lg-7 col-md-12">
 
-  </div>
-  <!--Grid column-->
+                <!--Grid row-->
+                <div class="row text-center">
 
-  <!--Grid column-->
-  <div class="col-lg-4 col-md-6 mb-3">
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-12 mb-3">
 
-      <p><i class="fas fa-building fa-1x mr-2 grey-text"></i>Mon - Fri, 8:00-22:00</p>
+                    <p><i class="fas fa-map fa-1x mr-2 grey-text"></i>Chemnitz</p>
 
-  </div>
-  <!--Grid column-->
+                  </div>
+                  <!--Grid column-->
 
-  <!--Grid column-->
-  <div class="col-lg-4 col-md-6 mb-3">
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-6 mb-3">
 
-      <p><i class="fas fa-phone fa-1x mr-2 grey-text"></i>+ 01 234 567 89</p>
+                    <p><i class="fas fa-building fa-1x mr-2 grey-text"></i>Mon - Fri, 8:00-22:00</p>
 
-  </div>
-  <!--Grid column-->
+                  </div>
+                  <!--Grid column-->
 
-</div>
-<!--Grid row-->
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-6 mb-3">
 
-<!--Google map-->
-<div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20160.965232786544!2d12.90967920426136!3d50.82892903188896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a7465f01fd9de9%3A0x51ddf8280975d11c!2sChemnitz!5e0!3m2!1sen!2sde!4v1602773504847!5m2!1sen!2sde" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-</div>
+                    <p><i class="fas fa-phone fa-1x mr-2 grey-text"></i>+ 01 234 567 89</p>
 
-  </div>
-  <!--Grid column-->
+                  </div>
+                  <!--Grid column-->
 
-  </div>
-  <!--Grid row-->
+                </div>
+                <!--Grid row-->
 
-</section>
-<!--Section: Contact-->
+                <!--Google map-->
+                <div id="map-container" class="z-depth-1-half map-container mb-5"
+                  style="height: 400px">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20160.965232786544!2d12.90967920426136!3d50.82892903188896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a7465f01fd9de9%3A0x51ddf8280975d11c!2sChemnitz!5e0!3m2!1sen!2sde!4v1602773504847!5m2!1sen!2sde"
+                    width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+                    aria-hidden="false" tabindex="0"></iframe>
+                </div>
+
+              </div>
+              <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+          </section>
+          <!--Section: Contact-->
         </div>
         <!-- /site container -->
-      </main>
-      <!--Main layout-->
-  <!-- Footer -->
-<footer class="page-footer font-small bg-secondary lighten-5">
+    </main>
+    <!--Main layout-->
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-secondary lighten-5">
 
-  <div class="bg-primary">
-    <div class="container">
+      <div class="bg-primary">
+        <div class="container">
 
-      <!-- Grid row-->
-      <div class="row py-4 d-flex align-items-center">
+          <!-- Grid row-->
+          <div class="row py-4 d-flex align-items-center">
 
-        <!-- Grid column -->
-        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-          <h6 class="mb-0">Get connected with us on social networks!</h6>
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+              <h6 class="mb-0">Get connected with us on social networks!</h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+              <!-- Facebook -->
+              <a class="fb-ic">
+                <i class="fab fa-facebook-f white-text mr-4"> </i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic">
+                <i class="fab fa-twitter white-text mr-4"> </i>
+              </a>
+              <!--Linkedin -->
+              <a class="li-ic">
+                <i class="fab fa-linkedin-in white-text mr-4"> </i>
+              </a>
+              <!--Instagram-->
+              <a class="ins-ic">
+                <i class="fab fa-instagram white-text"> </i>
+              </a>
+
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row-->
+
         </div>
-        <!-- Grid column -->
+      </div>
 
-        <!-- Grid column -->
-        <div class="col-md-6 col-lg-7 text-center text-md-right">
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left mt-5">
 
-          <!-- Facebook -->
-          <a class="fb-ic">
-            <i class="fab fa-facebook-f white-text mr-4"> </i>
-          </a>
-          <!-- Twitter -->
-          <a class="tw-ic">
-            <i class="fab fa-twitter white-text mr-4"> </i>
-          </a>
-          <!--Linkedin -->
-          <a class="li-ic">
-            <i class="fab fa-linkedin-in white-text mr-4"> </i>
-          </a>
-          <!--Instagram-->
-          <a class="ins-ic">
-            <i class="fab fa-instagram white-text"> </i>
-          </a>
+        <!-- Grid row -->
+        <div class="row mt-3 dark-grey-text">
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+            <!-- Content -->
+            <h6 class="text-uppercase font-weight-bold"><span class="brand">No MPU ➔</span></h6>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor
+              sit amet,
+              consectetur
+              adipisicing elit.</p>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Products</h6>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a class="dark-grey-text" href="#!">Products 1</a>
+            </p>
+            <p>
+              <a class="dark-grey-text" href="#!">Products 2</a>
+            </p>
+            <p>
+              <a class="dark-grey-text" href="#!">Products 3</a>
+            </p>
+            <p>
+              <a class="dark-grey-text" href="#!">Products 4</a>
+            </p>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a class="dark-grey-text" href="#!">Your Account</a>
+            </p>
+            <p>
+              <a class="dark-grey-text" href="#!">Become an Affiliate</a>
+            </p>
+            <p>
+              <a class="dark-grey-text" href="#!">Shipping Rates</a>
+            </p>
+            <p>
+              <a class="dark-grey-text" href="#!">Help</a>
+            </p>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Contact</h6>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <i class="fas fa-home mr-3"></i> Chemnitz</p>
+            <p>
+              <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p>
+              <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p>
+              <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+          </div>
+          <!-- Grid column -->
 
         </div>
-        <!-- Grid column -->
+        <!-- Grid row -->
 
       </div>
-      <!-- Grid row-->
+      <!-- Footer Links -->
 
-    </div>
-  </div>
-
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left mt-5">
-
-    <!-- Grid row -->
-    <div class="row mt-3 dark-grey-text">
-
-      <!-- Grid column -->
-      <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
-
-        <!-- Content -->
-        <h6 class="text-uppercase font-weight-bold"><span class="brand">No MPU ➔</span></h6>
-        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
-
+      <!-- Copyright -->
+      <div class="footer-copyright text-center bg-primary text-black-50 py-3">
+        © <span id="year"></span> Copyright:
+        <a class="text-black-50" href="#"> Patrick Schubert</a>
       </div>
-      <!-- Grid column -->
+      <!-- Copyright -->
 
-      <!-- Grid column -->
-      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-        <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Products</h6>
-        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-          <a class="dark-grey-text" href="#!">Products 1</a>
-        </p>
-        <p>
-          <a class="dark-grey-text" href="#!">Products 2</a>
-        </p>
-        <p>
-          <a class="dark-grey-text" href="#!">Products 3</a>
-        </p>
-        <p>
-          <a class="dark-grey-text" href="#!">Products 4</a>
-        </p>
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-        <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-          <a class="dark-grey-text" href="#!">Your Account</a>
-        </p>
-        <p>
-          <a class="dark-grey-text" href="#!">Become an Affiliate</a>
-        </p>
-        <p>
-          <a class="dark-grey-text" href="#!">Shipping Rates</a>
-        </p>
-        <p>
-          <a class="dark-grey-text" href="#!">Help</a>
-        </p>
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-        <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Contact</h6>
-        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-          <i class="fas fa-home mr-3"></i> Chemnitz</p>
-        <p>
-          <i class="fas fa-envelope mr-3"></i> info@example.com</p>
-        <p>
-          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-        <p>
-          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    <!-- Grid row -->
-
-  </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center bg-primary text-black-50 py-3">
-    © <span id="year"></span> Copyright:
-    <a class="text-black-50" href="#"> Patrick Schubert</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
+    </footer>
+    <!-- Footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  
-    
-<!-- Smooth Scrooling -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+
+    <!-- Smooth Scrooling -->
     <script src="src/js/smooth-scroll.js"></script>
-    
+    <!-- Smooth Scroll for Safari -->
+    <script src="src/js/smooth-scroll-jquery.js"></script>
+
     <!-- Navbar Color change after scrolling -->
     <script src="src/js/navbar-color-change.js"></script>
-        
-        <!-- Get the current year for the copytright -->
-        <script src="src/js/actual-year.js"></script>
+
+    <!-- Get the current year for the copytright -->
+    <script src="src/js/actual-year.js"></script>
 
   </body>
+
 </html>
