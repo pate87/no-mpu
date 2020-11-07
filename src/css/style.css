@@ -1,74 +1,84 @@
 .bg-yellow {
-    background: transparent;
+	background: transparent;
 }
 .bg-yellow.scrolled {
-    background: #ff0;
-    transition: .5s ease-in;
+	background: #ff0;
+	transition: 0.5s ease-in;
 }
 
 hr {
-    color: #ff0;
+	color: #ff0;
 }
 
 #intro {
-    background: url("https://jimdo-storage.freetls.fastly.net/image/a5be4261-29b7-4868-b068-b812184c3a8a.jpg")
-      no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-  }
+	background: url('https://jimdo-storage.freetls.fastly.net/image/a5be4261-29b7-4868-b068-b812184c3a8a.jpg')
+		no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+@media only screen and (max-device-width: 1366px) {
+	#intro {
+		background-attachment: scroll;
+	}
+}
 
-  #trust {
-    background: url("https://p-schub.lima-city.de/mpu/img/light-way_25.jpeg")
-      no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-  }
+#trust {
+	background: url('https://p-schub.lima-city.de/mpu/img/light-way_25.jpeg')
+		no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+@media only screen and (max-device-width: 1366px) {
+	#trust {
+		background-attachment: scroll;
+	}
+}
 
-  .btn-outline-light {
-    border: rgba(0,0,0, .5) solid 1px;
-  }
+.btn-outline-light {
+	border: rgba(0, 0, 0, 0.5) solid 1px;
+}
 
-  .mask {
-    background-color: rgba(100,100,100, .5);
-  }
+.mask {
+	background-color: rgba(100, 100, 100, 0.5);
+}
 
-  .vh {
-      height: 100%;
-  }
+.vh {
+	height: 100%;
+}
 
-  .brand {
-    background: yellow;
-    padding: 7px;
-    border-radius: 10px;
-    color: #111;
-    text-shadow: none;
-    border: 5px solid #111;
+.brand {
+	background: yellow;
+	padding: 7px;
+	border-radius: 10px;
+	color: #111;
+	text-shadow: none;
+	border: 5px solid #111;
 }
 
 .top-nav-collapse {
-  background-color: #ff0;
+	background-color: #ff0;
 }
 @media (max-width: 768px) {
-  .navbar:not(.top-nav-collapse) {
-    background-color: #ff0;
-  }
+	.navbar:not(.top-nav-collapse) {
+		background-color: #ff0;
+	}
 }
 @media (min-width: 800px) and (max-width: 850px) {
-  .navbar:not(.top-nav-collapse) {
-    background-color: #ff0;
-  }
+	.navbar:not(.top-nav-collapse) {
+		background-color: #ff0;
+	}
 }
 
 @media (min-width: 600px) {
-  .navbar.scrolling-navbar {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-  }
+	.navbar.scrolling-navbar {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+	}
 }
