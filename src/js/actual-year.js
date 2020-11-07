@@ -1,1 +1,1 @@
-$('#year').text(new Date().getFullYear());
+document.querySelector('#year').innerHTML = new Date().getFullYear();
