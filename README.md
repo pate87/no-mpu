@@ -13,4 +13,4 @@ After the final layout was created, I developed some JavaScript behaviours
 - Google Maps
 - Navigation behaviour
 
-[link to website](https://patrickschubert87.github.io/no-mpu/)
+[link to website](https://pate87.github.io/no-mpu/)
